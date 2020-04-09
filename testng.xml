@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CompanySetup">
+
+	<suite-files>
+		 <suite-file path="./src/main/resources/suitefile/employeeservice_post.xml" />
+		<!-- <suite-file path="./src/main/resources/suitefile/employeeservice_get.xml" /> -->
+		<!-- <suite-file path="./src/main/resources/suitefile/employeeservice_delete.xml" /> -->
+		<!-- <suite-file path="./src/main/resources/suitefile/employeeservice_put.xml" /> -->
+		
+	</suite-files>
+
+</suite>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EmployeeService-PUT-Endpoint">
+
+<!-- <test name="Test create Prerequisite data"> -->
+
+	<test name="Test update Employee with valid data">
+		<classes>
+			<class
+				name="com.falcon.api.put.testscripts.employeeservice.UpdateEmployeeWithValidData" />
+		</classes>
+	</test>
+	
+</suite>

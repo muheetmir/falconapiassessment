@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EmployeeService-GET-Endpoint">
+
+<test name="Test get Employee by client by id">
+	<classes>
+		 <class name="com.falcon.api.get.testscripts.employeeservice.GetEmployeeWithID" />
+	</classes>
+</test> 
+
+<!-- <test name="Test get all employees">
+	<classes>
+		<class name="com.falcon.api.get.testscripts.employeeservice.GetAllEmployees" />
+			
+	</classes>
+</test> -->
+
+</suite>

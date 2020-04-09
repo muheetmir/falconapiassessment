@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EmployeeService-DELETE-Endpoint">
+
+	<test name="Test delete Employee with valid data">
+		<classes>
+			<class
+				name="com.falcon.api.delete.testscripts.employeeservice.DeleteEmployee"/>
+		</classes>
+	</test>	
+</suite>

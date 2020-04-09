@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EmployeeService-POST-Endpoint" duration-ms="5035" started-at="2020-04-09T08:16:49Z" finished-at="2020-04-09T08:16:54Z">
+    <groups>
+    </groups>
+    <test name="Sample Test" duration-ms="5035" started-at="2020-04-09T08:16:49Z" finished-at="2020-04-09T08:16:54Z">
+      <class name="com.falcon.api.post.testscripts.employeeservice.CreateEmployeeWithValidData">
+        <test-method status="PASS" signature="intiReportProperties()[pri:0, instance:com.falcon.api.post.testscripts.employeeservice.CreateEmployeeWithValidData@42dafa95]" name="intiReportProperties" is-config="true" duration-ms="409" started-at="2020-04-09T08:16:48Z" finished-at="2020-04-09T08:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiReportProperties -->
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.falcon.api.post.testscripts.employeeservice.CreateEmployeeWithValidData@42dafa95]" name="initProperties" is-config="true" duration-ms="144" started-at="2020-04-09T08:16:49Z" finished-at="2020-04-09T08:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="createEmployeeWithValidData()[pri:0, instance:com.falcon.api.post.testscripts.employeeservice.CreateEmployeeWithValidData@42dafa95]" name="createEmployeeWithValidData" duration-ms="4857" started-at="2020-04-09T08:16:49Z" finished-at="2020-04-09T08:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeWithValidData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.falcon.api.post.testscripts.employeeservice.CreateEmployeeWithValidData@42dafa95]" name="getResult" is-config="true" duration-ms="6" started-at="2020-04-09T08:16:54Z" finished-at="2020-04-09T08:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createEmployeeWithValidData status=SUCCESS method=CreateEmployeeWithValidData.createEmployeeWithValidData()[pri:0, instance:com.falcon.api.post.testscripts.employeeservice.CreateEmployeeWithValidData@42dafa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.falcon.api.post.testscripts.employeeservice.CreateEmployeeWithValidData@42dafa95]" name="tearDown" is-config="true" duration-ms="514" started-at="2020-04-09T08:16:54Z" finished-at="2020-04-09T08:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.falcon.api.post.testscripts.employeeservice.CreateEmployeeWithValidData -->
+    </test> <!-- Sample Test -->
+  </suite> <!-- EmployeeService-POST-Endpoint -->
+  <suite name="CompanySetup" duration-ms="0" started-at="2020-04-09T08:16:55Z" finished-at="2020-04-09T08:16:55Z">
+    <groups>
+    </groups>
+  </suite> <!-- CompanySetup -->
+</testng-results>

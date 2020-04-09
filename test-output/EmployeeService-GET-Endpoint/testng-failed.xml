@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EmployeeService-GET-Endpoint]">
+  <test thread-count="5" name="Test get Client by client id(failed)">
+    <classes>
+      <class name="com.falcon.api.get.testscripts.employeeservice.GetEmployeeWithID">
+        <methods>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="initProperties"/>
+          <include name="GetScheduleWithScheduleUUID"/>
+          <include name="intiReportProperties"/>
+        </methods>
+      </class> <!-- com.falcon.api.get.testscripts.employeeservice.GetEmployeeWithID -->
+    </classes>
+  </test> <!-- Test get Client by client id(failed) -->
+</suite> <!-- Failed suite [EmployeeService-GET-Endpoint] -->

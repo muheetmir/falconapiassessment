@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Sample Suite File -->
+
+<suite name="EmployeeService-POST-Endpoint">
+<test name="Sample Test">
+		<classes>
+			<class
+				name="com.falcon.api.post.testscripts.employeeservice.CreateEmployeeWithValidData" />
+		</classes>
+	</test>  
+</suite>
